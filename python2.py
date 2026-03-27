@@ -9,5 +9,5 @@ reversed_word = ""
 
 while len(stack) > 0:
     reversed_word += stack.pop()
-
+print("----------------------------------")
 print("Перевернуте слово:", reversed_word)
